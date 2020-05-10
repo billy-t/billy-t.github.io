@@ -1,18 +1,23 @@
 import React from 'react';
+import { HashRouter, Switch, Route } from 'react-router-dom';
+import About from './components/About';
 import Header from './components/Header';
-import NavItems from './components/NavItems';
-import profilePic from './images/profile_pic.png';
+import Home from './components/Home';
+import Projects from './components/Projects';
 import './styles/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <header className="App-header">
-        <img src={profilePic} className="App-logo" alt="billy" />
-        <NavItems />
-      </header>
-    </div>
+    <HashRouter basename='/'>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+        </Switch>
+      </div>
+    </HashRouter>
   );
 }
 

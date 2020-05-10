@@ -1,9 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function NavItems() {
   return (
     <ul>
-      <li>about</li>
+      <li>
+        <Link to='/about'>about</Link>
+      </li>
       <li>
         <a
           href="https://drive.google.com/file/d/1W-cK2QXdeUaSEuja-GWzGX30BuLyzOQ3/view?usp=sharing"
@@ -13,7 +17,9 @@ function NavItems() {
           resume
         </a>
       </li>
-      <li>projects</li>
+      <li>
+        <Link to='/projects'>projects</Link>
+      </li>
       <li>fun</li>
     </ul>
   );
