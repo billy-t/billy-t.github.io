@@ -1,54 +1,46 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import logoMe from '../images/logo_me.svg';
 import logoLinkedin from '../images/logo_linkedin.svg';
 import logoPlane from '../images/logo_plane.svg';
+import logoResume from '../images/logo_resume.svg';
 import logoYoutube from '../images/logo_youtube.svg';
+
+const renderRow = (name: string, icon: string, href?: string) => {
+  const renderLink = (content: React.ReactNode) => {
+    return href
+      ? (
+        <a href={href} target="_blank" rel="noopener noreferrer">
+          {content}
+        </a>
+      ) : (
+        <Link to={`/${name}`}>{content}</Link>
+      );
+  }
+
+  return (
+    <div className='navRow'>
+      <div className='navNameCol'>
+        {renderLink(name)}
+      </div>
+      <div className='navIconCol'>
+        {renderLink(<img src={icon} className="navIcon" alt={name} />)}
+      </div>
+    </div>
+  );
+}
 
 function Home() {
   return (
     <div className="Home">
-      <ul className="NavItems">
-        <li>
-          <Link to='/about'>
-            about
-            <img src={logoMe} className="navIcon" alt="billy" />
-          </Link>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/billytorres/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            linkedin
-            <img src={logoLinkedin} className="navIcon" alt="linkedin" />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://drive.google.com/file/d/1W-cK2QXdeUaSEuja-GWzGX30BuLyzOQ3/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            resume
-            <FontAwesomeIcon className="navIcon" icon={faFileAlt} />
-          </a>
-        </li>
-        <li>
-          <Link to='/projects'>
-            projects
-            <img src={logoYoutube} className="navIcon" alt="youtube" />
-          </Link>
-        </li>
-        <li>
-          fun
-          <img src={logoPlane} className="navIcon" alt="plane" />
-        </li>
-      </ul>
+      <div className="navItems">
+        {renderRow('about', logoMe)}
+        {renderRow('resume', logoResume, 'https://drive.google.com/file/d/1W-cK2QXdeUaSEuja-GWzGX30BuLyzOQ3/view?usp=sharing')}
+        {renderRow('linkedin', logoLinkedin, 'https://www.linkedin.com/in/billytorres/')}
+        {renderRow('projects', logoYoutube)}
+        {renderRow('fun', logoPlane)}
+      </div>
     </div>
   );
 }

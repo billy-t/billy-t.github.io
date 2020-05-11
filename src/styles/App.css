@@ -1,7 +1,7 @@
 /* App styles  */
 .App {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 110px;
 }
 
 .Header {
@@ -9,7 +9,7 @@
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   font-size: 45px;
-  margin-top: -100px;
+  margin-top: -110px;
   margin-bottom: 10px;
   width: 100%;
   max-width: 800px;
@@ -35,21 +35,33 @@ a:hover {
 }
 
 /* Home page */
-.Home {
-  /* display: flex; */
-  /* flex-direction: column; */
-}
-
 .picture {
   height: 35vmin;
 }
 
-.NavItems {
-  font-size: 35px;
+.Home {
+  width: 100%;
+}
+
+.navItems {
+  font-size: 38px;
+  text-align: center;
+}
+
+.navRow {
+  display: flex;
+  padding-bottom: 15px;
+  justify-content: center;
+}
+
+.navNameCol {
+  width: 130px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .navIcon {
-  height: 50px;
+  height: 45px;
   max-width: 50px;
   margin-left: 15px;
 }
