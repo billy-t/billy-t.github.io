@@ -3,7 +3,6 @@
   text-align: center;
   margin-top: 100px;
 }
-
 .Header {
   background-color: white;
   border-bottom-left-radius: 15px;
@@ -18,6 +17,12 @@
   z-index: 1;
 }
 
+/* common styles for the different pages */
+.divider {
+  border: .75px solid #a79797;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 .link {
   color: blue !important;
 }
@@ -26,9 +31,14 @@
 }
 .pageTitle {
   color: #0008e5;
-  /* font-size: 38px; */
 }
 
+
+/* about me page */
+.picture {
+  width: 100%;
+  margin-bottom: 10px;
+}
 .col-pic {
   min-width: 250px;
   max-width: 75vw;
@@ -41,9 +51,9 @@
   margin-bottom: auto;
   min-width: 250px;
 }
+
+/* projects and other page */
 .col-vid {
-  /* min-width: 250px; */
-  /* max-width: 75vw; */
   margin: auto;
 }
 .col-description {
@@ -53,10 +63,7 @@
   min-width: 250px;
 }
 
-ul {
-  list-style: none;
-}
-
+/* home page */
 a:link, a:visited, a:active, a:hover {
   color: black;
   text-decoration: none;
@@ -65,48 +72,25 @@ a:link, a:visited, a:active, a:hover {
 a:hover {
   color: #0008e5;
 }
-
-/* iframe {
-  border: hidden;
-} */
-
-/* Home page */
 .Home {
   width: 100%;
 }
-
 .navItems {
   font-size: 38px;
   text-align: center;
 }
-
 .navRow {
   display: flex;
   padding-bottom: 15px;
   justify-content: center;
 }
-
 .navNameCol {
   width: 130px;
   display: flex;
   flex-direction: row-reverse;
 }
-
 .navIcon {
   height: 45px;
   max-width: 50px;
   margin-left: 15px;
-}
-
-.divider {
-  border: .75px solid #a79797;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-/* About page */
-.picture {
-  width: 100%;
-  margin-bottom: 10px;
-  /* height: 35vmin; */
 }

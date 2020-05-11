@@ -12,7 +12,7 @@ function Projects() {
       <Container>
         <Row>
           <Col className="col-vid">
-          <iframe src="https://www.youtube.com/embed/1AXU74BcN4k" frameBorder={0} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
+          <iframe src="https://www.youtube.com/embed/1AXU74BcN4k" title="6.835 demo" frameBorder={0} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
           </iframe>
           </Col>
           <Col className="col-description">
@@ -31,7 +31,7 @@ function Projects() {
 
         <Row>
           <Col className="col-vid">
-          <iframe src="https://www.youtube.com/embed/D_lgJQHPwGM" frameBorder={0} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe src="https://www.youtube.com/embed/D_lgJQHPwGM" title="6.810 demo" frameBorder={0} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </Col>
           <Col className="col-description">
             <div>

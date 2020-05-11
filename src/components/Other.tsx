@@ -28,7 +28,7 @@ function Other() {
 
         <Row>
           <Col className="col-vid">
-          <iframe src="https://www.youtube.com/embed/jMq7bI-MxYc" frameBorder={0} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe src="https://www.youtube.com/embed/jMq7bI-MxYc" title="mexico trip" frameBorder={0} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </Col>
           <Col className="col-description">
             <div>

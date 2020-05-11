@@ -21,7 +21,7 @@ function About() {
               <p>
                 heyo! i'm billy. i graduated with a computer science degree from MIT in 2019.
                 since then i've worked at airbnb doing frontend work on Maps and Guidebooks.
-                currently seeking the next opportunity 👨🏽‍💻
+                currently seeking the next opportunity <span role="img" aria-label="emoji of person using computer">👨🏽‍💻</span>
               </p>
               <p>
                 things i care about include but are not limited to: education, civil rights, poverty alleviation, music
