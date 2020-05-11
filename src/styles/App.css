@@ -1,15 +1,15 @@
 /* App styles  */
 .App {
   text-align: center;
-  margin-top: 110px;
+  margin-top: 100px;
 }
 
 .Header {
   background-color: white;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  font-size: 45px;
-  margin-top: -110px;
+  font-size: 40px;
+  margin-top: -100px;
   margin-bottom: 10px;
   width: 100%;
   max-width: 800px;
@@ -35,6 +35,17 @@
   margin-bottom: auto;
   min-width: 250px;
 }
+.col-vid {
+  /* min-width: 250px; */
+  /* max-width: 75vw; */
+  margin: auto;
+}
+.col-description {
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+  min-width: 250px;
+}
 
 ul {
   list-style: none;
@@ -48,6 +59,10 @@ a:link, a:visited, a:active, a:hover {
 a:hover {
   color: #0008e5;
 }
+
+/* iframe {
+  border: hidden;
+} */
 
 /* Home page */
 .Home {
@@ -75,6 +90,12 @@ a:hover {
   height: 45px;
   max-width: 50px;
   margin-left: 15px;
+}
+
+.divider {
+  border: .75px solid #a79797;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 /* About page */

@@ -8,9 +8,9 @@ import profilePic from '../images/profile_pic.png';
 function About() {
   return (
     <div>
-      <h3 className="pageTitle">
+      <h2 className="pageTitle">
         about me
-      </h3>
+      </h2>
       <Container>
         <Row>
           <Col className="col-pic">
