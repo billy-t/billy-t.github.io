@@ -18,7 +18,7 @@ function Other() {
             <div>
               <h5>better world: scholarships @ MIT</h5>
               <p>
-                this was a cool <a className="link" href="https://betterworld.mit.edu/scholarships-at-mit-billy-torres-19-is-inspired-by-inclusivity/" target="_blank" rel="noopener noreferrer">campaign</a> I had the privilege of participating in, highlighting the importance of scholarships in my journey as well family support
+                this was a cool <a className="link" href="https://betterworld.mit.edu/scholarships-at-mit-billy-torres-19-is-inspired-by-inclusivity/" target="_blank" rel="noopener noreferrer">campaign</a> I had the privilege of participating in, highlighting the importance of scholarships in my journey as well as family support
               </p>
             </div>
           </Col>
