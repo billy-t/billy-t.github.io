@@ -1,17 +1,57 @@
+/* App styles  */
 .App {
   text-align: center;
-  background-color: #ebaeab;
+  margin-top: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
+.Header {
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-size: 45px;
+  margin-top: -100px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+  position: fixed;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.logo {
+  /* color: #0008e5; */
 }
+
+ul {
+  list-style: none;
+}
+
+a:link, a:visited, a:active, a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0008e5;
+}
+
+/* Home page */
+.Home {
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.picture {
+  height: 35vmin;
+}
+
+.NavItems {
+  font-size: 35px;
+}
+
+.navIcon {
+  height: 50px;
+  max-width: 50px;
+  margin-left: 15px;
+}
+
+/* About page */
