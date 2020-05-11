@@ -15,10 +15,25 @@
   max-width: 800px;
   padding: 10px;
   position: fixed;
+  z-index: 1;
 }
 
-.logo {
-  /* color: #0008e5; */
+.pageTitle {
+  color: #0008e5;
+  /* font-size: 38px; */
+}
+
+.col-pic {
+  min-width: 250px;
+  max-width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col-bio {
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+  min-width: 250px;
 }
 
 ul {
@@ -35,10 +50,6 @@ a:hover {
 }
 
 /* Home page */
-.picture {
-  height: 35vmin;
-}
-
 .Home {
   width: 100%;
 }
@@ -67,3 +78,8 @@ a:hover {
 }
 
 /* About page */
+.picture {
+  width: 100%;
+  margin-bottom: 10px;
+  /* height: 35vmin; */
+}
