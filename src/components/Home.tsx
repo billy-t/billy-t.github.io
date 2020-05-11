@@ -39,7 +39,7 @@ function Home() {
         {renderRow('resume', logoResume, 'https://drive.google.com/file/d/1W-cK2QXdeUaSEuja-GWzGX30BuLyzOQ3/view?usp=sharing')}
         {renderRow('linkedin', logoLinkedin, 'https://www.linkedin.com/in/billytorres/')}
         {renderRow('projects', logoYoutube)}
-        {renderRow('fun', logoPlane)}
+        {renderRow('other', logoPlane)}
       </div>
     </div>
   );

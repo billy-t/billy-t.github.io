@@ -18,6 +18,12 @@
   z-index: 1;
 }
 
+.link {
+  color: blue !important;
+}
+.link:hover {
+  text-decoration: underline;
+}
 .pageTitle {
   color: #0008e5;
   /* font-size: 38px; */
