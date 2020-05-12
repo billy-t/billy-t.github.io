@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94b59f3c1066dc74536603d7f88b1839",
+    "revision": "65504ee86294b3e8247f66930b21a8e6",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "66b229f72986dad339c6",
+    "revision": "26ee0c8d848308c29031",
     "url": "/static/css/main.7bc11e96.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.23af9c87.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "66b229f72986dad339c6",
-    "url": "/static/js/main.ee64da95.chunk.js"
+    "revision": "26ee0c8d848308c29031",
+    "url": "/static/js/main.729a3e72.chunk.js"
   },
   {
     "revision": "967a46d8b67e4e01db1f",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo_plane.0a42a475.svg"
   },
   {
-    "revision": "5a9681c876cc158bf5e71eaa13bc162e",
-    "url": "/static/media/logo_resume.5a9681c8.svg"
+    "revision": "3816e8c4393b8ce54540b2015cbd21ef",
+    "url": "/static/media/logo_resume.3816e8c4.svg"
   },
   {
     "revision": "adf2ae812dd8cce874ef8165e14f9cb6",
